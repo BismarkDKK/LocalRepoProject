@@ -1,6 +1,6 @@
 # A cool program to understand the match case concept in python
 
-month = input("Enter any month of a year (January - December): ")
+month = input("Enter any month of a year (January - December/Christmas Season): ")
 month = month.lower()
 
 match month:
@@ -26,7 +26,7 @@ match month:
         print("We are in the tenth month of the year.")
     case "november":
         print("We are in the eleventh month of the year.")
-    case "december":
+    case "december" | "christmas season":
         print("We are in the last month of the year.")
     case _:
         print("The world doesn't know the kind of month you typed.")
